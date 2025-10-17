@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "dreams-sensorimotor",
+    "version": "0.4.0",
+    "description": "Baseline preset derived from the dream sensorimotor lexicons.",
+    "engine_min_version": "0.3.0",
+    "categories": [
+      "sensorimotor",
+      "agent",
+      "presence",
+      "valence"
+    ]
+  },
+  "lexicons": {
+    "agent.supernatural_nouns": ["angel", "demon", "spirit", "deity", "god"],
+    "sensorimotor.embodied_adjectives": ["gross", "dizzy", "sweaty"],
+    "presence.types": ["presence", "disembodied voice", "cold spot"],
+    "valence.positive_low_arousal": ["happy"],
+    "valence.negative_high_arousal": ["terror", "fear", "rage"],
+    "tactile.verbs": ["grasp", "hug"],
+    "visual.light_terms": ["glow", "luminous"]
+  },
+  "exceptions": {
+    "proper_name_exceptions": ["godfrey", "goddard"],
+    "idiom_exclusions.supernatural": ["oh my god"],
+    "objects_require_determiner": ["ring", "mirror"],
+    "negations": ["no", "not", "never"]
+  },
+  "notes": [
+    "Extend lexicons through the API before committing changes to config/categories.yml."
+  ]
+}

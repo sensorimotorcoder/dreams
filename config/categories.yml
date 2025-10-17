@@ -1,0 +1,78 @@
+valence:
+  awe: [awe]
+  reverence: [reverence]
+  peace: [peace]
+  comfort: [comfort, consoled, consolation]
+  mercy: [mercy, forgiveness, love]
+  ecstasy: [ecstasy, rapture, exaltation]
+  negative_high_arousal: [terror, dread, fear, panic, menace, threat, oppression, doom, rage, fury, anger, angry, pissed]
+  negative_low_arousal: [sorrow, grief, despair]
+  positive_low_arousal: [happy]
+
+setting:
+  structural: [door, gate, threshold, bridge, stair, ladder, arch, altar room, sacred grove, cave, mountain, river, ocean, abyss, void, chapel, sanctum, labyrinth, tomb, graveyard, cemetery, corridor, hallway, crossroads, passage, portal, window, horizon, cross, chapel, tomb]
+  sacred_tokens: [altar, chapel, sanctum, sacred, grove, temple, shrine]
+  liminal: [threshold, portal, arch, bridge, crossroads]
+
+presence:
+  types:
+    - presence
+    - voice only
+    - disembodied voice
+    - invisible
+    - shadow figure
+    - shadow man
+    - shadow
+    - felt watched
+    - cold spot
+    - moving objects
+    - lights flicker
+    - door opens
+    - footsteps
+    - breath on neck
+    - whisper
+    - music
+    - song
+    - name called
+    - apparition
+    - watcher
+    - vague outline
+    - entity
+
+agent:
+  supernatural_nouns: [angel, demon, spirit, deity, god]
+  vague: [entity, watcher, shadow, apparition, presence]
+
+visual:
+  color: [color-red, color-blue, golden, white, dim, bright, shining, luminous, radiant, shadowed, darkness, glow, glimmer, flickering, sparkle, gleam, halo, haze, mist, obscured, silhouette, shadow]
+  light_terms: [glow, light, luminous, halo, radiant, bright, shining]
+  dark_terms: [darkness, shadowed, dim, shadow]
+  movement_terms: [flicker, flickering, moving, sparkle, glimmer]
+
+auditory:
+  voice: [voice, whisper, murmur, chant, cry, scream, roar, bells, thunder, rustle, footsteps, laughter, silence, resonance, hum, chime, drone, name called, utterance]
+  music: [music, song, hymn]
+
+tactile:
+  adjectives: [touch, pressure, warmth, cold, chills, goosebumps, vibration, tingling, numb, heat, breeze, caress, rough, smooth, sharp, heavy, soft]
+  verbs: [grasped, hugged, embrace, hug, grasp, carry, lift, crawl, jump, fly, fall, climb, stand, sit, prostrate, kneel, bow, reach, stretch, strike, push, pull]
+
+olfactory:
+  smells: [incense, perfume, fragrance, stench, stink, musk, musty, acrid, rotten, smoke, sulfur]
+
+gustatory:
+  tastes: [sweet, bitter, sour, salty, metallic, bread, wine, honey, ash, bile, blood]
+
+bodystate:
+  respiratory: [breath, breathing, inhale, exhale, gasp, suffocate, lungs]
+  cardio: [heart, chest, pulse, heartbeat]
+  general_state: [fatigue, heaviness, lightness, dizziness, nausea, hunger, thirst, paralyzed, frozen, weightless, arousal, tension, chills, sweaty, shaky]
+  evaluative_embodied_adjs: [gross, nauseous, dizzy, sweaty, shaky]
+
+motor:
+  postures: [kneel, bow, prostrate, sit, stand]
+  movements: [walk, run, climb, crawl, jump, fly, fall, carry, lift, reach, grasp, hug, embrace, push, pull, stretch, extend]
+
+object:
+  sacred_objects: [book, scroll, key, lamp, candle, sword, staff, wand, cup, chalice, cloak, mask, ring, mirror, stone, crystal, sigil, seal, relic, icon, idol, crown, throne, altar, scepter]
+  ordinary: [packet, pencil, notebook, hat, jewelry, ball, keys]
