@@ -4,7 +4,6 @@ proper_name_exceptions:
   - goddard
   - godel
   - godspeed
-  
 
 # Phrases you want to ignore as idioms (non-referential)
 idiom_exclusions:
