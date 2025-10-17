@@ -1,0 +1,43 @@
+# Proper-name and lexical exceptions that must never trigger category codes
+proper_name_exceptions:
+  - godfrey
+  - goddard
+  - godel
+  - godspeed
+
+# Phrases you want to ignore as idioms (non-referential)
+idiom_exclusions:
+  supernatural:
+    - "oh my god"
+    - "for god's sake"
+    - "god knows"
+  olfactory:
+    - "smells like teen spirit"
+  visual:
+    - "in the limelight"
+
+# Verbs/nouns that are too polysemous—only code when POS == NOUN and has determiner
+objects_require_determiner:
+  - ring
+  - mirror
+  - seal
+  - crown
+  - mask
+  - cup
+  - staff
+  - sword
+
+# Negation markers to suppress embodied states, pain, etc.
+negations: [no, not, n't, never, without, none, nothing, neither, nor, hardly, barely, seldom]
+
+# “Epistemic felt”—should switch off embodied coding when these follow FEEL
+epistemic_complements: ["like", "that", "as if", "as though"]
+
+# Hedgers that reduce confidence (still code, but mark low_conf)
+hedges: [maybe, perhaps, sort of, kind of, somewhat, slightly, vaguely, faintly, almost]
+
+# Intensifiers that increase confidence
+intensifiers: [very, really, extremely, intensely, overwhelmingly, totally, utterly, profoundly]
+
+# Google Sheets/Excel special-cases (often lowercase artifacts)
+lowercase_person_god: true
